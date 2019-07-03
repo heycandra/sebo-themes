@@ -1,0 +1,16 @@
+{
+  "name": "sebo-landing",
+  "version": "1.0.0",
+  "description": "Sebo Themes Commercial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Candra Dwi Waskito",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
+}
