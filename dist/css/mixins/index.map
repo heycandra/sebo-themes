@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "index.css",
+	"sources": [
+		"../../../src/scss/mixins/index.scss",
+		"../../../src/scss/mixins/_variable.scss"
+	],
+	"sourcesContent": [
+		"@import \"variable\";",
+		"/*\n  Color\n */\n// Action\n$ss__primary: #0065FF;\n$ss__secondary: #506690;\n$ss__success: #36B37E;\n$ss__info: #00B8D9;\n$ss__warning: #FFAB00;\n$ss__danger: #E63757;\n\n// White\n$ss__white: white;\n\n// Black\n$ss__black: #152547;\n$ss__gray: #7A869A;\n$ss__gray--light: #B3BAC5;\n$ss__gray--dark: #3B506C;\n\n// Misc\n$ss__blue: #0065FF;\n$ss__indigo: #6610F2;\n$ss__purple: #6554C0;\n$ss__pink: #F3559D;\n$ss__red: #E63757;\n$ss__salmon: #FF7452;\n$ss__orange: #FF8B00;\n$ss__yellow: #FFAB00;\n$ss__green: #36B37E;\n$ss__cyan: #00B8D9;\n$ss__teal: #00A3BF;"
+	],
+	"names": [],
+	"mappings": "ACAA;;GAEG"
+}

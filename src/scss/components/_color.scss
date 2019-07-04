@@ -1,0 +1,68 @@
+// import a mixins/variable
+@import "../mixins/variable";
+
+/*
+  Color
+ */
+// action
+.ss__cl__primary { color: $ss__primary; }
+.ss__cl__secondary { color: $ss__secondary; }
+.ss__cl__success { color: $ss__success; }
+.ss__cl__info { color: $ss__info; }
+.ss__cl__warning { color: $ss__warning; }
+.ss__cl__danger { color: $ss__danger; }
+
+// white
+.ss__cl__white { color: $ss__white; }
+
+// black
+.ss__cl__black { color: $ss__black; }
+.ss__cl__gray { color: $ss__gray; }
+.ss__cl__gray--light { color: $ss__gray--light; }
+.ss__cl__gray--dark { color: $ss__gray--dark; }
+
+// misc
+.ss__cl__blue { color: $ss__blue; }
+.ss__cl__indigo { color: $ss__indigo; }
+.ss__cl__purple { color: $ss__purple; }
+.ss__cl_pink { color: $ss__pink; }
+.ss__cl__red { color: $ss__red; }
+.ss__cl__salmon { color: $ss__salmon; }
+.ss__cl__orange { color: $ss__orange; }
+.ss__cl__yellow { color: $ss__yellow; }
+.ss__cl__green { color: $ss__green; }
+.ss__cl__cyan { color: $ss__cyan; }
+.ss__cl__teal { color: $ss__teal; }
+
+/*
+  Background color
+ */
+// Action
+.ss__bg__primary { background-color: $ss__primary; }
+.ss__bg__secondary { background-color: $ss__secondary; }
+.ss__bg__success { background-color: $ss__success; }
+.ss__bg__info { background-color: $ss__info; }
+.ss__bg__warning { background-color: $ss__warning; }
+.ss__bg__danger { background-color: $ss__danger; }
+
+// White
+.ss__bg__white { background-color: $ss__white; }
+
+// Black
+.ss__bg__black { background-color: $ss__black; }
+.ss__bg__gray { background-color: $ss__gray; }
+.ss__bg__gray--light { background-color: $ss__gray--light; }
+.ss__bg__gray--dark { background-color: $ss__gray--dark; }
+
+// Misc
+.ss__bg__blue { background-color: $ss__blue; }
+.ss__bg__indigo { background-color: $ss__indigo; }
+.ss__bg__purple { background-color: $ss__purple; }
+.ss__bg__pink { background-color: $ss__pink; }
+.ss__bg__red { background-color: $ss__red; }
+.ss__bg__salmon { background-color: $ss__salmon; }
+.ss__bg__orange { background-color: $ss__orange; }
+.ss__bg__yellow { background-color: $ss__yellow; }
+.ss__bg__green { background-color: $ss__green; }
+.ss__bg__cyan { background-color: $ss__cyan; }
+.ss__bg__teal { background-color: $ss__teal; }

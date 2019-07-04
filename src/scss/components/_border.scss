@@ -1,0 +1,11 @@
+/*
+  Border
+ */
+
+.ss__border--1 { border-width: 1px; }
+.ss__border--2 { border-width: 2px; }
+@for $i from 0 through 10 {
+  .ss__border--#{$i} {
+    border-width: #{$i}px;
+  }
+}
