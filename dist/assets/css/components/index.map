@@ -2,10 +2,10 @@
 	"version": 3,
 	"file": "index.css",
 	"sources": [
-		"../../../src/scss/components/index.scss",
-		"../../../src/scss/components/_color.scss",
-		"../../../src/scss/mixins/_variable.scss",
-		"../../../src/scss/components/_border.scss"
+		"../../../../src/scss/components/index.scss",
+		"../../../../src/scss/components/_color.scss",
+		"../../../../src/scss/mixins/_variable.scss",
+		"../../../../src/scss/components/_border.scss"
 	],
 	"sourcesContent": [
 		"@import \"color\";\n@import \"border\";",

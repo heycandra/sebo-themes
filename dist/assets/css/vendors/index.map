@@ -2,8 +2,8 @@
 	"version": 3,
 	"file": "index.css",
 	"sources": [
-		"../../../src/scss/vendors/index.scss",
-		"../../../src/scss/vendors/_bootstrap.scss"
+		"../../../../src/scss/vendors/index.scss",
+		"../../../../src/scss/vendors/_bootstrap.scss"
 	],
 	"sourcesContent": [
 		"@import \"bootstrap\";",

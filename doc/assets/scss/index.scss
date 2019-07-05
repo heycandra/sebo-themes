@@ -1,0 +1,64 @@
+// general
+body {
+  background-color: #F9F9FB;
+}
+
+// highlight
+.highlight {
+  background-color: #f7f7f9;
+  padding: 20px;
+}
+
+.doc__color,
+.doc__border{
+  padding: 50px;
+  background-color: white;
+  margin: 50px 0;
+}
+
+// heading & main
+
+
+// color
+.doc__color {
+  .doc__color--action,
+  .doc__color--misc,
+  .doc__color--black {
+    margin-bottom: 30px;
+
+    li {
+      margin-right: 30px;
+    }
+
+    .doc__color--wrap {
+      width: 100px;
+      height: 100px;
+      -webkit-border-radius: 100%;
+      -moz-border-radius: 100%;
+      border-radius: 100%;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+// border
+.doc__border {
+  &--action,
+  &--misc,
+  &--black {
+    margin-bottom: 30px;
+
+    li {
+      margin-right: 30px;
+    }
+
+    .doc__border--wrap {
+      width: 100px;
+      height: 100px;
+      -webkit-border-radius: 100%;
+      -moz-border-radius: 100%;
+      border-radius: 100%;
+      margin-bottom: 30px;
+    }
+  }
+}

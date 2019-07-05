@@ -1,0 +1,315 @@
+/*
+  Color
+ */
+/*
+  Color
+ */
+.ss__cl__primary {
+  color: #0065FF;
+}
+
+.ss__cl__secondary {
+  color: #506690;
+}
+
+.ss__cl__success {
+  color: #36B37E;
+}
+
+.ss__cl__info {
+  color: #00B8D9;
+}
+
+.ss__cl__warning {
+  color: #FFAB00;
+}
+
+.ss__cl__danger {
+  color: #E63757;
+}
+
+.ss__cl__white {
+  color: white;
+}
+
+.ss__cl__black {
+  color: #152547;
+}
+
+.ss__cl__gray {
+  color: #7A869A;
+}
+
+.ss__cl__gray--light {
+  color: #B3BAC5;
+}
+
+.ss__cl__gray--dark {
+  color: #3B506C;
+}
+
+.ss__cl__blue {
+  color: #0065FF;
+}
+
+.ss__cl__indigo {
+  color: #6610F2;
+}
+
+.ss__cl__purple {
+  color: #6554C0;
+}
+
+.ss__cl_pink {
+  color: #F3559D;
+}
+
+.ss__cl__red {
+  color: #E63757;
+}
+
+.ss__cl__salmon {
+  color: #FF7452;
+}
+
+.ss__cl__orange {
+  color: #FF8B00;
+}
+
+.ss__cl__yellow {
+  color: #FFAB00;
+}
+
+.ss__cl__green {
+  color: #36B37E;
+}
+
+.ss__cl__cyan {
+  color: #00B8D9;
+}
+
+.ss__cl__teal {
+  color: #00A3BF;
+}
+
+/*
+  Background color
+ */
+.ss__bg__primary {
+  background-color: #0065FF;
+}
+
+.ss__bg__secondary {
+  background-color: #506690;
+}
+
+.ss__bg__success {
+  background-color: #36B37E;
+}
+
+.ss__bg__info {
+  background-color: #00B8D9;
+}
+
+.ss__bg__warning {
+  background-color: #FFAB00;
+}
+
+.ss__bg__danger {
+  background-color: #E63757;
+}
+
+.ss__bg__white {
+  background-color: white;
+}
+
+.ss__bg__black {
+  background-color: #152547;
+}
+
+.ss__bg__gray {
+  background-color: #7A869A;
+}
+
+.ss__bg__gray--light {
+  background-color: #B3BAC5;
+}
+
+.ss__bg__gray--dark {
+  background-color: #3B506C;
+}
+
+.ss__bg__blue {
+  background-color: #0065FF;
+}
+
+.ss__bg__indigo {
+  background-color: #6610F2;
+}
+
+.ss__bg__purple {
+  background-color: #6554C0;
+}
+
+.ss__bg__pink {
+  background-color: #F3559D;
+}
+
+.ss__bg__red {
+  background-color: #E63757;
+}
+
+.ss__bg__salmon {
+  background-color: #FF7452;
+}
+
+.ss__bg__orange {
+  background-color: #FF8B00;
+}
+
+.ss__bg__yellow {
+  background-color: #FFAB00;
+}
+
+.ss__bg__green {
+  background-color: #36B37E;
+}
+
+.ss__bg__cyan {
+  background-color: #00B8D9;
+}
+
+.ss__bg__teal {
+  background-color: #00A3BF;
+}
+
+/*
+  Border
+ */
+.ss__border--0 {
+  border-width: 0px;
+}
+
+.ss__border--1 {
+  border-width: 1px;
+}
+
+.ss__border--2 {
+  border-width: 2px;
+}
+
+.ss__border--3 {
+  border-width: 3px;
+}
+
+.ss__border--4 {
+  border-width: 4px;
+}
+
+.ss__border--5 {
+  border-width: 5px;
+}
+
+.ss__border--6 {
+  border-width: 6px;
+}
+
+.ss__border--7 {
+  border-width: 7px;
+}
+
+.ss__border--8 {
+  border-width: 8px;
+}
+
+.ss__border--9 {
+  border-width: 9px;
+}
+
+.ss__border--10 {
+  border-width: 10px;
+}
+
+.ss__border__style--solid {
+  border-style: solid;
+}
+
+.ss__border__cl--primary {
+  border-color: #0065FF;
+}
+
+.ss__border__cl--secondary {
+  border-color: #506690;
+}
+
+.ss__border__cl--info {
+  border-color: #00B8D9;
+}
+
+.ss__border__cl--warning {
+  border-color: #FFAB00;
+}
+
+.ss__border__cl--danger {
+  border-color: #E63757;
+}
+
+.ss__border__cl--blue {
+  border-color: #0065FF;
+}
+
+.ss__border__cl--indigo {
+  border-color: #6610F2;
+}
+
+.ss__border__cl--purple {
+  border-color: #6554C0;
+}
+
+.ss__border__cl--pink {
+  border-color: #F3559D;
+}
+
+.ss__border__cl--red {
+  border-color: #E63757;
+}
+
+.ss__border__cl--salmon {
+  border-color: #FF7452;
+}
+
+.ss__border__cl--orange {
+  border-color: #FF8B00;
+}
+
+.ss__border__cl--yellow {
+  border-color: #FFAB00;
+}
+
+.ss__border__cl--green {
+  border-color: #36B37E;
+}
+
+.ss__border__cl--cyan {
+  border-color: #00B8D9;
+}
+
+.ss__border__cl--teal {
+  border-color: #00A3BF;
+}
+
+.ss__border__cl--black {
+  border-color: #152547;
+}
+
+.ss__border__cl--gray {
+  border-color: #7A869A;
+}
+
+.ss__border__cl--gray__light {
+  border-color: #B3BAC5;
+}
+
+.ss__border__cl--gray__dark {
+  border-color: #3B506C;
+}

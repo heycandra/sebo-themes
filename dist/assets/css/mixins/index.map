@@ -2,8 +2,8 @@
 	"version": 3,
 	"file": "index.css",
 	"sources": [
-		"../../../src/scss/mixins/index.scss",
-		"../../../src/scss/mixins/_variable.scss"
+		"../../../../src/scss/mixins/index.scss",
+		"../../../../src/scss/mixins/_variable.scss"
 	],
 	"sourcesContent": [
 		"@import \"variable\";",

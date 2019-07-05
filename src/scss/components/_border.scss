@@ -7,3 +7,89 @@
     border-width: #{$i}px;
   }
 }
+
+.ss__border__style--solid {
+  border-style: solid;
+}
+
+// action
+.ss__border__cl--primary {
+  border-color: $ss__primary;
+}
+
+.ss__border__cl--secondary {
+  border-color: $ss__secondary;
+}
+
+.ss__border__cl--info {
+  border-color: $ss__info;
+}
+
+.ss__border__cl--warning {
+  border-color: $ss__warning;
+}
+
+.ss__border__cl--danger {
+  border-color: $ss__danger;
+}
+
+// misc
+.ss__border__cl--blue {
+  border-color: $ss__blue;
+}
+
+.ss__border__cl--indigo {
+  border-color: $ss__indigo;
+}
+
+.ss__border__cl--purple {
+  border-color: $ss__purple;
+}
+
+.ss__border__cl--pink {
+  border-color: $ss__pink;
+}
+
+.ss__border__cl--red {
+  border-color: $ss__red;
+}
+
+.ss__border__cl--salmon {
+  border-color: $ss__salmon;
+}
+
+.ss__border__cl--orange {
+  border-color: $ss__orange;
+}
+
+.ss__border__cl--yellow {
+  border-color: $ss__yellow;
+}
+
+.ss__border__cl--green {
+  border-color: $ss__green;
+}
+
+.ss__border__cl--cyan {
+  border-color: $ss__cyan;
+}
+
+.ss__border__cl--teal {
+  border-color: $ss__teal;
+}
+
+.ss__border__cl--black {
+  border-color: $ss__black;
+}
+
+.ss__border__cl--gray {
+  border-color: $ss__gray;
+}
+
+.ss__border__cl--gray__light {
+  border-color: $ss__gray--light;
+}
+
+.ss__border__cl--gray__dark {
+  border-color: $ss__gray--dark;
+}

@@ -1,0 +1,66 @@
+/* line 2, ../../../../../Users/candrawaskito/Documents/DEV STUFF/SEBOSTUDIO/sebo-themes/doc/assets/scss/index.scss */
+body {
+  background-color: #F9F9FB;
+}
+
+/* line 7, ../../../../../Users/candrawaskito/Documents/DEV STUFF/SEBOSTUDIO/sebo-themes/doc/assets/scss/index.scss */
+.highlight {
+  background-color: #f7f7f9;
+  padding: 20px;
+}
+
+/* line 12, ../../../../../Users/candrawaskito/Documents/DEV STUFF/SEBOSTUDIO/sebo-themes/doc/assets/scss/index.scss */
+.doc__color,
+.doc__border {
+  padding: 50px;
+  background-color: white;
+  margin: 50px 0;
+}
+
+/* line 24, ../../../../../Users/candrawaskito/Documents/DEV STUFF/SEBOSTUDIO/sebo-themes/doc/assets/scss/index.scss */
+.doc__color .doc__color--action,
+.doc__color .doc__color--misc,
+.doc__color .doc__color--black {
+  margin-bottom: 30px;
+}
+
+/* line 29, ../../../../../Users/candrawaskito/Documents/DEV STUFF/SEBOSTUDIO/sebo-themes/doc/assets/scss/index.scss */
+.doc__color .doc__color--action li,
+.doc__color .doc__color--misc li,
+.doc__color .doc__color--black li {
+  margin-right: 30px;
+}
+
+/* line 33, ../../../../../Users/candrawaskito/Documents/DEV STUFF/SEBOSTUDIO/sebo-themes/doc/assets/scss/index.scss */
+.doc__color .doc__color--action .doc__color--wrap,
+.doc__color .doc__color--misc .doc__color--wrap,
+.doc__color .doc__color--black .doc__color--wrap {
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  margin-bottom: 30px;
+}
+
+/* line 46, ../../../../../Users/candrawaskito/Documents/DEV STUFF/SEBOSTUDIO/sebo-themes/doc/assets/scss/index.scss */
+.doc__border--action, .doc__border--misc, .doc__border--black {
+  margin-bottom: 30px;
+}
+
+/* line 51, ../../../../../Users/candrawaskito/Documents/DEV STUFF/SEBOSTUDIO/sebo-themes/doc/assets/scss/index.scss */
+.doc__border--action li, .doc__border--misc li, .doc__border--black li {
+  margin-right: 30px;
+}
+
+/* line 55, ../../../../../Users/candrawaskito/Documents/DEV STUFF/SEBOSTUDIO/sebo-themes/doc/assets/scss/index.scss */
+.doc__border--action .doc__border--wrap, .doc__border--misc .doc__border--wrap, .doc__border--black .doc__border--wrap {
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  margin-bottom: 30px;
+}
+
+/*# sourceMappingURL=index.css.map */
