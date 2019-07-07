@@ -10,7 +10,8 @@ body {
 }
 
 .doc__color,
-.doc__border{
+.doc__border,
+.doc__buttons {
   padding: 50px;
   background-color: white;
   margin: 50px 0;
@@ -58,6 +59,24 @@ body {
       -webkit-border-radius: 100%;
       -moz-border-radius: 100%;
       border-radius: 100%;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+// buttons
+.doc__buttons {
+  &--default,
+  &--black,
+  &--misc,
+  &--border {
+    margin-bottom: 30px;
+
+    li {
+      margin-right: 30px;
+    }
+
+    .btn {
       margin-bottom: 30px;
     }
   }

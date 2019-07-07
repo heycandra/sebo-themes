@@ -11,27 +11,28 @@ body {
 
 /* line 12, ../../../../../Users/candrawaskito/Documents/DEV STUFF/SEBOSTUDIO/sebo-themes/doc/assets/scss/index.scss */
 .doc__color,
-.doc__border {
+.doc__border,
+.doc__buttons {
   padding: 50px;
   background-color: white;
   margin: 50px 0;
 }
 
-/* line 24, ../../../../../Users/candrawaskito/Documents/DEV STUFF/SEBOSTUDIO/sebo-themes/doc/assets/scss/index.scss */
+/* line 25, ../../../../../Users/candrawaskito/Documents/DEV STUFF/SEBOSTUDIO/sebo-themes/doc/assets/scss/index.scss */
 .doc__color .doc__color--action,
 .doc__color .doc__color--misc,
 .doc__color .doc__color--black {
   margin-bottom: 30px;
 }
 
-/* line 29, ../../../../../Users/candrawaskito/Documents/DEV STUFF/SEBOSTUDIO/sebo-themes/doc/assets/scss/index.scss */
+/* line 30, ../../../../../Users/candrawaskito/Documents/DEV STUFF/SEBOSTUDIO/sebo-themes/doc/assets/scss/index.scss */
 .doc__color .doc__color--action li,
 .doc__color .doc__color--misc li,
 .doc__color .doc__color--black li {
   margin-right: 30px;
 }
 
-/* line 33, ../../../../../Users/candrawaskito/Documents/DEV STUFF/SEBOSTUDIO/sebo-themes/doc/assets/scss/index.scss */
+/* line 34, ../../../../../Users/candrawaskito/Documents/DEV STUFF/SEBOSTUDIO/sebo-themes/doc/assets/scss/index.scss */
 .doc__color .doc__color--action .doc__color--wrap,
 .doc__color .doc__color--misc .doc__color--wrap,
 .doc__color .doc__color--black .doc__color--wrap {
@@ -43,23 +44,38 @@ body {
   margin-bottom: 30px;
 }
 
-/* line 46, ../../../../../Users/candrawaskito/Documents/DEV STUFF/SEBOSTUDIO/sebo-themes/doc/assets/scss/index.scss */
+/* line 47, ../../../../../Users/candrawaskito/Documents/DEV STUFF/SEBOSTUDIO/sebo-themes/doc/assets/scss/index.scss */
 .doc__border--action, .doc__border--misc, .doc__border--black {
   margin-bottom: 30px;
 }
 
-/* line 51, ../../../../../Users/candrawaskito/Documents/DEV STUFF/SEBOSTUDIO/sebo-themes/doc/assets/scss/index.scss */
+/* line 52, ../../../../../Users/candrawaskito/Documents/DEV STUFF/SEBOSTUDIO/sebo-themes/doc/assets/scss/index.scss */
 .doc__border--action li, .doc__border--misc li, .doc__border--black li {
   margin-right: 30px;
 }
 
-/* line 55, ../../../../../Users/candrawaskito/Documents/DEV STUFF/SEBOSTUDIO/sebo-themes/doc/assets/scss/index.scss */
+/* line 56, ../../../../../Users/candrawaskito/Documents/DEV STUFF/SEBOSTUDIO/sebo-themes/doc/assets/scss/index.scss */
 .doc__border--action .doc__border--wrap, .doc__border--misc .doc__border--wrap, .doc__border--black .doc__border--wrap {
   width: 100px;
   height: 100px;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   border-radius: 100%;
+  margin-bottom: 30px;
+}
+
+/* line 69, ../../../../../Users/candrawaskito/Documents/DEV STUFF/SEBOSTUDIO/sebo-themes/doc/assets/scss/index.scss */
+.doc__buttons--default, .doc__buttons--black, .doc__buttons--misc, .doc__buttons--border {
+  margin-bottom: 30px;
+}
+
+/* line 75, ../../../../../Users/candrawaskito/Documents/DEV STUFF/SEBOSTUDIO/sebo-themes/doc/assets/scss/index.scss */
+.doc__buttons--default li, .doc__buttons--black li, .doc__buttons--misc li, .doc__buttons--border li {
+  margin-right: 30px;
+}
+
+/* line 79, ../../../../../Users/candrawaskito/Documents/DEV STUFF/SEBOSTUDIO/sebo-themes/doc/assets/scss/index.scss */
+.doc__buttons--default .btn, .doc__buttons--black .btn, .doc__buttons--misc .btn, .doc__buttons--border .btn {
   margin-bottom: 30px;
 }
 

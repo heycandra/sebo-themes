@@ -9,14 +9,48 @@ $ss__info: #00B8D9;
 $ss__warning: #FFAB00;
 $ss__danger: #E63757;
 
+// Action Lighter
+$ss__primary--lighter: lighten($ss__primary, 10%);
+$ss__secondary--lighter: lighten($ss__secondary, 10%);
+$ss__success--lighter: lighten($ss__success, 10%);
+$ss__info--lighter: lighten($ss__info, 10%);
+$ss__warning--lighter: lighten($ss__warning, 10%);
+$ss__danger--lighter: lighten($ss__danger, 10%);
+
+// Action Darker
+$ss__primary--darker: darken($ss__primary, 10%);
+$ss__secondary--darker: darken($ss__secondary, 10%);
+$ss__success--darker: darken($ss__success, 10%);
+$ss__info--darker: darken($ss__info, 10%);
+$ss__warning--darker: darken($ss__warning, 10%);
+$ss__danger--darker: darken($ss__danger, 10%);
+
 // White
 $ss__white: white;
+
+// White Lighter
+$ss__white--lighter: lighten($ss__white, 10%);
+
+// White Darker
+$ss__white--darker: darken($ss__white, 10%);
 
 // Black
 $ss__black: #152547;
 $ss__gray: #7A869A;
 $ss__gray--light: #B3BAC5;
 $ss__gray--dark: #3B506C;
+
+// Black Lighter
+$ss__black--lighter: lighten($ss__black, 10%);
+$ss__gray--lighter: lighten($ss__gray, 10%);
+$ss__gray--light__lighter: lighten($ss__gray--light, 10%);
+$ss__gray--dark__lighter: lighten($ss__gray--dark, 10%);
+
+// Black Darker
+$ss__black--darker: darken($ss__black, 10%);
+$ss__gray--darker: darken($ss__gray, 10%);
+$ss__gray--light__darker: darken($ss__gray--light, 10%);
+$ss__gray--dark__darker: darken($ss__gray--dark, 10%);
 
 // Misc
 $ss__blue: #0065FF;
@@ -30,3 +64,29 @@ $ss__yellow: #FFAB00;
 $ss__green: #36B37E;
 $ss__cyan: #00B8D9;
 $ss__teal: #00A3BF;
+
+// Misc Lighter
+$ss__blue--lighter: lighten($ss__blue, 10%);
+$ss__indigo--lighter: lighten($ss__indigo, 10%);
+$ss__purple--lighter: lighten($ss__purple, 10%);
+$ss__pink--lighter: lighten($ss__pink, 10%);
+$ss__red--lighter: lighten($ss__red, 10%);
+$ss__salmon--lighter: lighten($ss__salmon, 10%);
+$ss__orange--lighter: lighten($ss__orange, 10%);
+$ss__yellow--lighter: lighten($ss__yellow, 10%);
+$ss__green--lighter: lighten($ss__green, 10%);
+$ss__cyan--lighter: lighten($ss__cyan, 10%);
+$ss__teal--lighter: lighten($ss__teal, 10%);
+
+// Misc Darker
+$ss__blue--darker: darken($ss__blue, 10%);
+$ss__indigo--darker: darken($ss__indigo, 10%);
+$ss__purple--darker: darken($ss__purple, 10%);
+$ss__pink--darker: darken($ss__pink, 10%);
+$ss__red--darker: darken($ss__red, 10%);
+$ss__salmon--darker: darken($ss__salmon, 10%);
+$ss__orange--darker: darken($ss__orange, 10%);
+$ss__yellow--darker: darken($ss__yellow, 10%);
+$ss__green--darker: darken($ss__green, 10%);
+$ss__cyan--darker: darken($ss__cyan, 10%);
+$ss__teal--darker: darken($ss__teal, 10%);
