@@ -28,6 +28,7 @@
     color: $ss__white;
   }
 
+  // Radius
   &__radius--4 {
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -56,6 +57,346 @@
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
     border-radius: 100px;
+  }
+
+  // Outline
+  &-outline-primary {
+    color: $ss__primary;
+
+    &:focus {
+      color: $ss__primary;
+    }
+
+    &:hover,
+    &:active,
+    &:visited {
+      color: $ss__white;
+    }
+  }
+
+  &-outline-secondary {
+    color: $ss__secondary;
+
+    &:focus {
+      color: $ss__secondary;
+    }
+
+    &:hover,
+    &:active,
+    &:visited {
+      color: $ss__white;
+    }
+  }
+
+  &-outline-success {
+    color: $ss__success;
+
+    &:focus {
+      color: $ss__success;
+    }
+
+    &:hover,
+    &:active,
+    &:visited {
+      color: $ss__white;
+    }
+  }
+
+  &-outline-info {
+    color: $ss__info;
+
+    &:focus {
+      color: $ss__info;
+    }
+
+    &:hover,
+    &:active,
+    &:visited {
+      color: $ss__white;
+    }
+  }
+
+  &-outline-warning {
+    color: $ss__warning;
+
+    &:focus {
+      color: $ss__warning;
+    }
+
+    &:hover,
+    &:active,
+    &:visited {
+      color: $ss__white;
+    }
+  }
+
+  &-outline-danger {
+    color: $ss__danger;
+
+    &:focus {
+      color: $ss__danger;
+    }
+
+    &:hover,
+    &:active,
+    &:visited {
+      color: $ss__white;
+    }
+  }
+
+  &-outline-black {
+    border: 1px solid $ss__black;
+    color: $ss__black;
+
+    &:focus {
+      color: $ss__black;
+    }
+
+    &:hover,
+    &:active,
+    &:visited {
+      background-color: $ss__black--lighter;
+      border: 1px solid $ss__black--lighter;
+      color: $ss__white;
+    }
+  }
+
+  &-outline-gray {
+    border: 1px solid $ss__gray;
+    color: $ss__gray;
+
+    &:focus {
+      color: $ss__gray;
+    }
+
+    &:hover,
+    &:active,
+    &:visited {
+      background-color: $ss__gray--lighter;
+      border: 1px solid $ss__gray--lighter;
+      color: $ss__white;
+    }
+  }
+
+  &-outline-gray--light {
+    border: 1px solid $ss__gray--light;
+    color: $ss__gray--light;
+
+    &:focus {
+      color: $ss__gray--light;
+    }
+
+    &:hover,
+    &:active,
+    &:visited {
+      background-color: $ss__gray--light__lighter;
+      border: 1px solid $ss__gray--light__lighter;
+      color: $ss__white;
+    }
+  }
+
+  &-outline-gray--dark {
+    border: 1px solid $ss__gray--dark;
+    color: $ss__gray--dark;
+
+    &:focus {
+      color: $ss__gray--dark;
+    }
+
+    &:hover,
+    &:active,
+    &:visited {
+      background-color: $ss__gray--dark__lighter;
+      border: 1px solid $ss__gray--dark__lighter;
+      color: $ss__white;
+    }
+  }
+
+  &-outline-blue {
+    border: 1px solid $ss__blue;
+    color: $ss__blue;
+
+    &:focus {
+      color: $ss__blue;
+    }
+
+    &:hover,
+    &:active,
+    &:visited {
+      background-color: $ss__blue--lighter;
+      border: 1px solid $ss__blue--lighter;
+      color: $ss__white;
+    }
+  }
+
+  &-outline-indigo {
+    border: 1px solid $ss__indigo;
+    color: $ss__indigo;
+
+    &:focus {
+      color: $ss__indigo;
+    }
+
+    &:hover,
+    &:active,
+    &:visited {
+      background-color: $ss__indigo--lighter;
+      border: 1px solid $ss__indigo--lighter;
+      color: $ss__white;
+    }
+  }
+
+  &-outline-purple {
+    border: 1px solid $ss__purple;
+    color: $ss__purple;
+
+    &:focus {
+      color: $ss__purple;
+    }
+
+    &:hover,
+    &:active,
+    &:visited {
+      background-color: $ss__purple--lighter;
+      border: 1px solid $ss__purple--lighter;
+      color: $ss__white;
+    }
+  }
+
+  &-outline-pink {
+    border: 1px solid $ss__pink;
+    color: $ss__pink;
+
+    &:focus {
+      color: $ss__pink;
+    }
+
+    &:hover,
+    &:active,
+    &:visited {
+      background-color: $ss__pink--lighter;
+      border: 1px solid $ss__pink--lighter;
+      color: $ss__white;
+    }
+  }
+
+  &-outline-red {
+    border: 1px solid $ss__red;
+    color: $ss__red;
+
+    &:focus {
+      color: $ss__red;
+    }
+
+    &:hover,
+    &:active,
+    &:visited {
+      background-color: $ss__red--lighter;
+      border: 1px solid $ss__red--lighter;
+      color: $ss__white;
+    }
+  }
+
+  &-outline-salmon {
+    border: 1px solid $ss__salmon;
+    color: $ss__salmon;
+
+    &:focus {
+      color: $ss__salmon;
+    }
+
+    &:hover,
+    &:active,
+    &:visited {
+      background-color: $ss__salmon--lighter;
+      border: 1px solid $ss__salmon--lighter;
+      color: $ss__white;
+    }
+  }
+
+  &-outline-orange {
+    border: 1px solid $ss__orange;
+    color: $ss__orange;
+
+    &:focus {
+      color: $ss__orange;
+    }
+
+    &:hover,
+    &:active,
+    &:visited {
+      background-color: $ss__orange--lighter;
+      border: 1px solid $ss__orange--lighter;
+      color: $ss__white;
+    }
+  }
+
+  &-outline-yellow {
+    border: 1px solid $ss__yellow;
+    color: $ss__yellow;
+
+    &:focus {
+      color: $ss__yellow;
+    }
+
+    &:hover,
+    &:active,
+    &:visited {
+      background-color: $ss__yellow--lighter;
+      border: 1px solid $ss__yellow--lighter;
+      color: $ss__white;
+    }
+  }
+
+  &-outline-green {
+    border: 1px solid $ss__green;
+    color: $ss__green;
+
+    &:focus {
+      color: $ss__green;
+    }
+
+    &:hover,
+    &:active,
+    &:visited {
+      background-color: $ss__green--lighter;
+      border: 1px solid $ss__green--lighter;
+      color: $ss__white;
+    }
+  }
+
+  &-outline-cyan {
+    border: 1px solid $ss__cyan;
+    color: $ss__cyan;
+
+    &:focus {
+      color: $ss__cyan;
+    }
+
+    &:hover,
+    &:active,
+    &:visited {
+      background-color: $ss__cyan--lighter;
+      border: 1px solid $ss__cyan--lighter;
+      color: $ss__white;
+    }
+  }
+
+  &-outline-teal {
+    border: 1px solid $ss__teal;
+    color: $ss__teal;
+
+    &:focus {
+      color: $ss__teal;
+    }
+
+    &:hover,
+    &:active,
+    &:visited {
+      background-color: $ss__teal--lighter;
+      border: 1px solid $ss__teal--lighter;
+      color: $ss__white;
+    }
   }
 
   // Action
