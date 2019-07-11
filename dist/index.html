@@ -1,10 +1,465 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rent</title>
+    <link rel="stylesheet" href="../src/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/index.css">
 </head>
 <body>
+
+    <!--start:header-->
+    <header id="header" class="header">
+        <!--navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">LOGO</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Landing
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Pages
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Docs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Help</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-outline-primary btn__radius--8" href="#">Get it now</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!--hero-->
+        <div id="hero" class="hero">
+            <div class="container">
+                <div class="main">
+                    <div class="row">
+                        <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
+                            <div class="hero--left left">
+                                <h1>Let’s your home work</h1>
+                                <p>No matter what kind of place you have to share, rent out your house, apartment or room & earn extra money quickly.</p>
+                                <a href="#" class="btn btn-outline-secondary">Learn More <img src=""></a>
+
+                                <ul class="list list-unstyled">
+                                    <li><img src=""> <span>Charge what you want</span></li>
+                                    <li><img src=""> <span>Get paid quickly</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
+                            <div class="hero--right right">
+                                <div class="card card--estimate">
+                                    <div class="card-header">
+                                        <h4>Earn extra money</h4>
+                                        <p>Get an estimate price for space you rent</p>
+                                    </div>
+                                    <div class="card-body">
+                                        <form>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter your house location">
+                                            </div>
+                                            <div class="form-row">
+                                                <div class="form-group col-md-6">
+                                                    <div class="form-group col-md-4">
+                                                        <select id="place" class="form-control">
+                                                            <option selected>Entire Place</option>
+                                                            <option>...</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group col-md-4">
+                                                    <select id="guest" class="form-control">
+                                                        <option selected>3 guests</option>
+                                                        <option>...</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <span>Monthly potential</span>
+                                                <h1>$6,850</h1>
+                                            </div>
+                                            <div class="form-group">
+                                                <button type="submit" class="btn btn-primary btn-block">Get Started</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--end:header-->
+
+    <!--start:tips-->
+    <section id="tips" class="tips">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="tips--left">
+                        <span class="badge badge-success">GET PAID QUICKLY</span>
+                        <h2>Let’s rent out your home, enjoy!</h2>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                    <div class="tips--right">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12 col-xs-12">
+                                <div class="tips__list">
+                                    <div class="tips__list--img">
+                                        <img src="">
+                                    </div>
+                                    <div class="tips__list--content">
+                                        <h4>Put your home to work</h4>
+                                        <p>No matter what kind of home you have to share, you can increase your earnings.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 col-xs-12">
+                                <div class="tips__list">
+                                    <div class="tips__list--img">
+                                        <img src="">
+                                    </div>
+                                    <div class="tips__list--content">
+                                        <h4>Put your home to work</h4>
+                                        <p>No matter what kind of home you have to share, you can increase your earnings.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end:tips-->
+
+    <!--start:step-->
+    <section id="step" class="step">
+        <div class="container">
+            <div class="step__heading heading">
+                <span class="badge badge-success">HOUSTING STEPS</span>
+                <h2>Rent out your home in 3 steps</h2>
+                <p>Tired of secretive bids? Our platform provides a transparent rental auction with the ability to submit custom offers. </p>
+            </div>
+            <div class="step__main main">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="step--img">
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <ul class="step--list list-unstyled">
+                            <li>
+                                <div class="step--list__number">
+                                    1
+                                </div>
+                                <div class="step--list__content">
+                                    <h4>Tell us about your space</h4>
+                                    <p>Share any space from a shared living room to a second home and everything in-between.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="step--list__number">
+                                    2
+                                </div>
+                                <div class="step--list__content">
+                                    <h4>Decide how you want to host</h4>
+                                    <p>You’re free to choose your own schedule, prices, and requirements for guests.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="step--list__number">
+                                    3
+                                </div>
+                                <div class="step--list__content">
+                                    <h4>Welcome your first guest</h4>
+                                    <p>Once your listing is live, qualified guests can reach out and you can message them.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="step--list__content">
+                                    <a href="#" class="btn btn-primary">Learn more <img src="" alt=""></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end:step-->
+
+    <!--start:quote-->
+    <section id="quote" class="quote">
+        <div class="container">
+            <div class="quote__main main">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="quote--content">
+                            <img src="" alt="">
+                            <h1>Hosting has helped me pay for a new living room and other upgrades. I would continue to use this platform forever.</h1>
+                            <p>Daniel hosts in Yogyakarta to earn extra money</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="quote--img">
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end:quote-->
+
+    <!--start:features-->
+    <section id="features" class="features">
+        <div class="container"></div>
+    </section>
+    <!--end:features-->
+
+    <!--start:articles-->
+    <article id="articles" class="articles">
+        <div class="container"></div>
+    </article>
+    <!--end:articles-->
+
+    <!--start:information-->
+    <section id="information" class="information">
+        <div class="container">
+            <div class="information__heading heading">
+                <h2>Hosts like you, worldwide</h2>
+                <p>We share common trends and strategies for improving your rental income and making sure you stay in high demand.</p>
+            </div>
+            <div class="information__main main">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <div class="card information--card">
+                            <img src="" alt="">
+                            <h2>3.9M</h2>
+                            <p>Hosts on our platform</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <div class="card information--card">
+                            <img src="" alt="">
+                            <h2>600K</h2>
+                            <p>Avarage stays each night</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <div class="card information--card">
+                            <img src="" alt="">
+                            <h2>9K</h2>
+                            <p>New hosts per month</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <div class="card information--card">
+                            <img src="" alt="">
+                            <h2>6.4M</h2>
+                            <p>Total happy guests</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end:information-->
+
+    <!--start:cta-->
+    <section id="cta" class="cta">
+        <div class="container">
+            <div class="cta__main main">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <h1>Ready to earn?</h1>
+                        <p>Rent out your house, apartment or room & earn extra money quickly.</p>
+                        <a href="#" class="btn btn-secondary">Get Started <img src="" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end:cta-->
+
+    <!--start:footer-->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <div class="footer__widget">
+                            <div class="footer__widget--main">
+                                <h1 class="logo">LOGO</h1>
+                                <p>Build a modern and creative website with crealand</p>
+                                <ul class="sosmed list-unstyled">
+                                    <li>
+                                        <img src="" alt="">
+                                    </li>
+                                    <li>
+                                        <img src="" alt="">
+                                    </li>
+                                    <li>
+                                        <img src="" alt="">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                        <div class="footer__widget">
+                            <div class="footer__widget--heading">
+                                <h4>Product</h4>
+                            </div>
+                            <div class="footer__widget--main">
+                                <ul class="footer--list list-unstyled">
+                                    <li>
+                                        <a href="#">Landingpage</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Features</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Documentation</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Referral Program</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Pricing</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                        <div class="footer__widget">
+                            <div class="footer__widget--heading">
+                                <h4>Services</h4>
+                            </div>
+                            <div class="footer__widget--main">
+                                <ul class="footer--list list-unstyled">
+                                    <li>
+                                        <a href="#">Documentation</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Design</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Themes</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Illustrations</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">UI Kit</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                        <div class="footer__widget">
+                            <div class="footer__widget--heading">
+                                <h4>Company</h4>
+                            </div>
+                            <div class="footer__widget--main">
+                                <ul class="footer--list list-unstyled">
+                                    <li>
+                                        <a href="#">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Terms</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Privacy Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Careers</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                        <div class="footer__widget">
+                            <div class="footer__widget--heading">
+                                <h4>More</h4>
+                            </div>
+                            <div class="footer__widget--main">
+                                <ul class="footer--list list-unstyled">
+                                    <li>
+                                        <a href="#">Documentation</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">License</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Changelog</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer--copyright">
+                            <img src="" alt="">
+                            <p>Copyright © 2019. Crafted with love.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--end:footer-->
+
+    <!--start:javascript-->
+    <script src="../src/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../src/node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../src/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!--end:javascript-->
 
 </body>
 </html>
